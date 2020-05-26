@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19 DATA REPORT</title>
+    <link rel="stylesheet" href="DOM_pract.css">
+    
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>
+                    <form autocomplete="off" onsubmit="event.preventDefault();" id="form">
+                        <div class="form-field">
+                                <label for="firstname">First Name:</label>
+                            <input type="text" name="firstname" id="firstname">
+                        </div>
+                        <div class="form-field">
+                            <label for="lastname">Last Name:</label>
+                            <input type="text" name="lastname" id="lastname">
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Email Adrress:</label>
+                            <input type="text" name="email" id="email">
+                        </div>
+                        <div class="gender">
+                            <label for="gender">Gender:</label>
+                            <select name="gender" id="gender">
+                                <option value="" disabled selected hidden>Male, Female</option>
+                                <option value="M">Male</option>
+                                <option value="F">Female</option>
+                            </select>
+                        </div>
+                        <div >
+                            <input type="checkbox" name="visit" id="visit">
+                            <label for="visit">Recently came in to Nigeria within the last 14 days?</label>
+                        </div>
+                        <div class="form-field">
+                            <button type="button" id="submit" value="Submit" onclick="onFormSubmit();">Submit</button>
+                        </div>
+                    </form>
+                </td>
+                <table id="form_data" border="1">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Email Address</th>
+                            <th id="sex">Gender</th>
+                            <th>Came to Nigeria within the last 14 days?</th>
+                            <th id="edit"></th>
+                            <th id="delete"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </tr>
+        </table>
+    </div>
+    
+<script src="./DOMscript.js"></script>
+</body>
+</html>
+

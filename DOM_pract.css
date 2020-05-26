@@ -1,0 +1,82 @@
+div table tr td{
+   padding: 10px;
+   width: 50em
+}
+form{
+    border: solid 1px;
+    padding: 10px;
+}
+.form-field {
+    clear: both;
+    padding: 10px 25px;
+    width: 350px;
+}
+.form-field label{
+    width: 150px;
+    text-align: right;
+}
+.form-field input{
+    float: right;
+    padding-right: 80px;
+    width: 150px;
+    text-align: left;
+
+}
+.gender {
+    clear: both;
+    padding: 5px 25px;
+    width: 267px;
+}
+#gender{
+    cursor: pointer;
+    float: right;
+    padding-right: 80px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+}
+#visit{
+    width: 60px;
+    margin-top: 10px;
+}
+a{
+    text-decoration: underline;
+    color: blue;
+}
+#submit{
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 50%;
+}
+#form_data{
+    margin-left: 10px;
+    margin-top: 40px; 
+    width: 80%;
+}
+table#form_data {
+    border-collapse: collapse;
+    border-color: grey;
+    text-align: center;
+}
+th{
+    background-color: lightgrey;
+    text-align: center;
+    width: 10em;
+}
+table#form_data thead tr th#edit, table#form_data thead tr th#delete{
+    width: 5%;
+}
+table#form_data thead tr th#sex{
+    width: 10%;
+    padding: 20px;
+}
+button{
+    color: black;
+    border-radius: 5px;
+    background-color: lightgrey;
+    cursor: pointer;
+    border: 1px solid;
+}
+div table tr table thead tr{
+    border: 5px solid;
+}
